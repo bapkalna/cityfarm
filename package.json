@@ -1,8 +1,8 @@
 {
   "name": "city-farm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is project website for Nucamp.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
@@ -12,5 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }

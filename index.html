@@ -6,13 +6,172 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>NuCamp: A Better Way To Camp</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>City Farm - urban farming</title>
 </head>
 
 <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <p>hello world!</p>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Urban farming
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Gardens</a>
+                        <a class="dropdown-item" href="#">Animals</a>
+                        <a class="dropdown-item" href="#">Bees</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Forum</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <header>
+        <div>
+            <h1>Urban farming - </h1>
+            <h2>the future of cities!</h2>
+        </div>
+    </header>
+
+    <!-- Information container-->
+    <div class="container information">
+        <div class="row">
+            <div class="col">
+                <img class="rounded-circle"
+                    src="images/cathy-vanheest-Dz_qNMDQPYA-unsplash.jpg"
+                    alt="Generic placeholder image" width="160" height="160">
+                <h2>What is urban farming?</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- START THE BLOGPOSTS -->
+
+    <hr class="blogpost-divider">
+
+    <div class="row blogpost">
+        <div class="col-md-7">
+            <h2 class="blogpost-heading">Raising chickens in the city</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="blogpost-image img-fluid mx-auto" src="images/chickens1.jpeg">
+        </div>
+    </div>
+
+    <hr class="blogpost-divider">
+
+    <div class="row blogpost">
+        <div class="col-md-7 order-md-2">
+            <h2 class="blogpost-heading">Greenhouse - great solution for cold spring</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="blogpost-image img-fluid mx-auto" src="images/greenhouse.jpeg">
+        </div>
+    </div>
+
+    <hr class="blogpost-divider">
+
+    <div class="row blogpost">
+        <div class="col-md-7">
+            <h2 class="blogpost-heading">Do my neighbours get along well with my bees</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                commodo.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="blogpost-image img-fluid mx-auto" src="images/bees1.jpeg">
+        </div>
+    </div>
+
+    <hr class="blogpost-divider">
+
+    <!-- /END THE BLOGPOSTS -->
+
+
+
+    <footer>
+        <div>
+            <h5>Links</h5>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sites</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Social</h5>
+            <a href="http://instagram.com/">Instagram</a>
+            <a href="http://facebook.com/">Facebook</a>
+            <a href="http://twitter.com/">Twitter</a>
+            <a href="http://youtube.com/">YouTube</a>
+        </div>
+        <div>
+            Tel: <br />
+            Email: 
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
+
 
 </html>
