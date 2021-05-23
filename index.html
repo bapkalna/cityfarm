@@ -13,16 +13,19 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 
     <title>City Farm - urban farming</title>
 </head>
 
 <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/peas.jpeg" class="logo d-inline-block align-top" alt=""
+                        loading="lazy">
+                </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,12 +61,7 @@
                         <a class="nav-link" href="#">Forum</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
-        </div>
     </nav>
 
     <header class="parallax">
@@ -82,12 +80,13 @@
                 <img class="rounded-circle" src="images/cathy-vanheest-Dz_qNMDQPYA-unsplash.jpg"
                     alt="Generic placeholder image" width="160" height="160">
                 <h2>What is urban farming?</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
-                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
-                    cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                <p>Urban farming or urban agriculture is growing or producing food in a city or heavily populated town
+                    or municipality. <br> It may be a social movement (sustainability, organic aspect, local tradition), food
+                    security issue, nutrition and/or income generation motivators. In all scenarios,
+                    more direct access to fresh vegetables, fruits, and meat products through urban agriculture can
+                    improve food security and food safety.</p>
+                <p><a class="btn btn-hover joinButton" href="#" role="button">Join the community</a></p>
             </div>
-
         </div>
     </div>
 
@@ -111,7 +110,7 @@
 
     <div class="row blogpost">
         <div class="col-md-7 order-md-2">
-            <h2 class="blogpost-heading">Greenhouse - great solution for cold spring</h2>
+            <h2 class="blogpost-heading">Greenhouse - great solution for cold summer</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
                 semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
                 commodo.</p>
@@ -139,7 +138,9 @@
 
     <!-- /END THE BLOGPOSTS -->
 
+    <!-- scroll back button -->
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up fa-lg"></i></button>
 
     <footer>
         <div>
@@ -178,5 +179,26 @@
 
 </body>
 
+<script>
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 
 </html>
