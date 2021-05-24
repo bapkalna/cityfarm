@@ -20,48 +20,47 @@
 
 <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img src="images/peas.jpeg" class="logo d-inline-block align-top" alt=""
-                        loading="lazy">
-                </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-md navbar-light" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="images/peas.jpeg" class="logo d-inline-block align-top" alt="" loading="lazy">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav navbar-expand-sm navbar-dark sticky-top mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Urban farming
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Gardens</a>
-                            <a class="dropdown-item" href="#">Animals</a>
-                            <a class="dropdown-item" href="#">Bees</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Forum</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav navbar-expand-sm navbar-dark sticky-top mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Urban farming
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Gardens</a>
+                        <a class="dropdown-item" href="#">Animals</a>
+                        <a class="dropdown-item" href="#">Bees</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Forum</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <header class="parallax">
@@ -81,7 +80,8 @@
                     alt="Generic placeholder image" width="160" height="160">
                 <h2>What is urban farming?</h2>
                 <p>Urban farming or urban agriculture is growing or producing food in a city or heavily populated town
-                    or municipality. <br> It may be a social movement (sustainability, organic aspect, local tradition), food
+                    or municipality. <br> It may be a social movement (sustainability, organic aspect, local tradition),
+                    food
                     security issue, nutrition and/or income generation motivators. In all scenarios,
                     more direct access to fresh vegetables, fruits, and meat products through urban agriculture can
                     improve food security and food safety.</p>
@@ -138,18 +138,56 @@
 
     <!-- /END THE BLOGPOSTS -->
 
-    <!-- scroll back button -->
+    <!-- START CARDS -->
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="/images/chickens3.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">ANIMALS</h5>
+                    <p class="card-text">The best source of information about animals in the urban backyards. </p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link fa fa-chevron-down fa-lg"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/images/garden2.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">GARDENS</h5>
+                    <p class="card-text">Gardening knowledge, tips and tricks, experiences and all the good stuff.</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link fa fa-chevron-down fa-lg"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/images/bees.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">BEES</h5>
+                    <p class="card-text">The best source to find information on beekeeping in the urban areas.</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link fa fa-chevron-down fa-lg"></a>
+                </div>
+            </div>
+        </div>
+    <!-- /END CARDS -->
+
+    <!-- Scroll up button -->
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up fa-lg"></i></button>
+
+    <!-- Footer -->
 
     <footer>
         <div>
             <h5>Links</h5>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Urban farming</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Forum</a></li>
             </ul>
         </div>
         <div>
@@ -179,26 +217,6 @@
 
 </body>
 
-<script>
-//Get the button:
-mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
+<script src="js/scripts.js"></script>
 
 </html>
