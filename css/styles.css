@@ -99,13 +99,23 @@ header h2 {
   margin-right: 4rem; }
 
 .parallax {
-  /* Set a specific height */
-  min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+#blogPosts {
+  background: url("/images/garden.jpeg") no-repeat center center fixed;
+  display: table;
+  height: 100px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: none; }
 
 #home {
   background: url("/images/garden.jpeg") no-repeat center center fixed;
