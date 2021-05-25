@@ -22,6 +22,31 @@ header h2 {
   margin-left: 2rem;
   margin-right: 2rem; }
 
+.login-icon {
+  padding: 10px 20px 10px 5px;
+  color: #234A12; }
+
+.login-button {
+  border: solid 1px #fafafa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #234A12; }
+
+.buttonStyle {
+  background-color: #85a178; }
+
+.modal-header {
+  background-color: #85a178; }
+
+.form-row {
+  padding-top: 2px;
+  padding-bottom: 5px; }
+  .form-row .loginButtons {
+    display: flex; }
+
+.modal-footer {
+  display: flex; }
+
 .row .information {
   display: -webkit-box;
   display: -ms-flexbox;
