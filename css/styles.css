@@ -100,6 +100,25 @@ header h2 {
   vertical-align: middle;
   color: white; }
 
+#myCards {
+  background: url("/images/garden1.jpeg") no-repeat center center fixed;
+  display: table;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 5px 0 5px 0; }
+
+.card-deck {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  align-items: center;
+  -ms-text-size-adjust: auto;
+  margin-top: 60px; }
+
 .card {
   border-radius: 2rem;
   margin: 8px;
@@ -110,14 +129,6 @@ header h2 {
 
 .card-img-top {
   border-radius: 2rem 2rem 0 0; }
-
-.card-deck {
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  align-items: center;
-  -ms-text-size-adjust: auto; }
 
 .card-link {
   color: #234A12; }
