@@ -131,6 +131,18 @@ header h2 {
   background-size: cover;
   padding: none; }
 
+#gardens {
+  background: url("/images/garden2.jpeg") no-repeat center center fixed;
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: none; }
+
 .text-vcenter {
   display: table-cell;
   text-align: center;
