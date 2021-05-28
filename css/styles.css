@@ -165,6 +165,18 @@ header h2 {
   background-size: cover;
   padding: none; }
 
+#education {
+  background: url("/images/education.jpeg") no-repeat center center fixed;
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: none; }
+
 .text-vcenter {
   display: table-cell;
   text-align: center;
@@ -188,7 +200,14 @@ header h2 {
   margin-right: 4rem;
   align-items: center;
   -ms-text-size-adjust: auto;
-  margin-top: 60px; }
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.card-group {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 20px;
+  margin-bottom: 60px; }
 
 .card {
   border-radius: 2rem;
@@ -203,6 +222,11 @@ header h2 {
 
 .card-link {
   color: #234A12; }
+
+.card-footer {
+  background: #85a178; }
+  .card-footer :hover {
+    color: #fafafa; }
 
 #myBtn {
   display: none;
