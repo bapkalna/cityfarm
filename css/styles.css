@@ -35,6 +35,9 @@ header h2 {
 .buttonStyle {
   background-color: #85a178; }
 
+.buttonStyle:hover {
+  color: white; }
+
 .modal-header {
   background-color: #85a178; }
 
@@ -269,3 +272,6 @@ header h2 {
 .btn-social-icon:hover {
   background-color: #fafafa;
   border: solid 1px; }
+
+.fa-chevron-down:hover {
+  color: #85a178; }
