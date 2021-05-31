@@ -271,7 +271,8 @@ header h2 {
 
 .btn-social-icon:hover {
   background-color: #fafafa;
-  border: solid 1px; }
+  border: solid 1px;
+  color: #234A12; }
 
 .fa-chevron-down:hover {
   color: #85a178; }
